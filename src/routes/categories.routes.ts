@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 import { createCategoryController } from "../modules/cars/useCases/createCategory";
-import { ListCategoriesController } from "../modules/cars/useCases/listCategories/ListCategoriesController";
+import { listCategoriesControler } from "../modules/cars/useCases/listCategories";
 
 const categoriesRoutes = Router();
 
@@ -10,7 +10,7 @@ categoriesRoutes.post("/", (request, response) => {
 });
 
 categoriesRoutes.get("/", (request, response) => {
-  return ListCategoriesController.handle(request, response);
+  return listCategoriesControler.handle(request, response);
 });
 
 export { categoriesRoutes };
