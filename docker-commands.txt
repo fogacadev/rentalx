@@ -1,0 +1,44 @@
+docker ps 
+  Exibe os containers que estão de pé
+
+docker ps -a
+  Exibe todos os containers intalados
+
+
+docker rm id_do_container 
+docker rm image_do_container
+  Remove o container informado, precisa que o container esteja parado.
+
+docker start nome_do_container
+  Iniciar o container informado
+
+docker stop nome_do_container
+  Inicia o container
+
+
+docker-compose up -d
+  Sobe o container em background
+
+docker-compose up
+  Sobe o container e cria tudo
+
+docker-compose start
+  Da start nos containers
+
+docker-compose stop
+  Para todos os containers
+
+docker-compose down
+  Remove tudo o que tiver criado
+
+docker exec -it rentx /bin/bash
+  Acessa o terminar do container
+
+ctrl+d
+  Sai do console do docker
+
+docker logs rentx 
+  exibe os ultimos logs
+
+docker logs rentx -f
+  fica conectado nos logs

@@ -1,0 +1,6 @@
+yarn typeorm migration:run
+  sobe a ultima migration para o bd
+
+yarn typeorm migration:create -n CreateSpecifications
+yarn typeorm migration:create -n nome_da_migration
+  Cria a migration para que possamos configara-la
