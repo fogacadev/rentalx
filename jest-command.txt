@@ -1,0 +1,23 @@
+yarn add jest @types/jest -d
+
+yarn jest --init
+
+test script in packet.json
+  y
+
+use typcripy 
+  y
+
+use node
+
+add coverage reports 
+  n
+
+provider
+  v8
+
+clear moks 
+  y
+
+yarn add ts-jest -D
+
